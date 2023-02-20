@@ -84,3 +84,20 @@ header .container {
 .cards-container {
 	gap: 1rem;
 }
+
+/* FOOTER */
+.footer-container {
+	flex-direction: column;
+}
+
+.footer-desc {
+	width: 100%;
+}
+
+.links-and-socials {
+	align-items: center;
+}
+
+.footer-links {
+	width: 100%;
+}

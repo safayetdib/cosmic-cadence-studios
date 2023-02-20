@@ -24,3 +24,14 @@ header .container {
 .banner h1 {
 	font-size: 38px;
 }
+
+/* FOOTER */
+.links-and-socials {
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.footer-address {
+	justify-content: flex-start;
+	text-align: left;
+}
