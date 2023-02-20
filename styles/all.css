@@ -346,3 +346,87 @@ header .container {
 	background-color: var(--lava);
 	color: #fff;
 }
+
+/* FOOTER */
+footer {
+	margin-top: 4rem;
+	padding-bottom: 2rem;
+}
+.footer-container {
+	width: 100%;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 4rem;
+}
+
+.footer-desc {
+	width: 60%;
+}
+.footer-links {
+	width: 40%;
+}
+
+footer p,
+footer a {
+	font-size: 18px;
+}
+
+.footer-desc .logo {
+	justify-content: flex-start;
+}
+.footer-desc p {
+	margin-top: 2rem;
+}
+
+.btn-sign-up {
+	margin-top: 1.5rem;
+	background-color: #000000;
+	color: #fff;
+	border: 1p;
+	font-weight: 500;
+	border: none;
+}
+.btn-sign-up:hover {
+	background-color: #000000e8;
+	color: #ffffffb6;
+}
+
+.links-and-socials {
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.links-and-socials p {
+	font-size: 18px;
+}
+
+.links-and-socials .links li {
+	margin-bottom: 0.5rem;
+}
+
+.links-and-socials .social {
+	margin-top: 1rem;
+}
+.links-and-socials .social a {
+	margin-right: 1rem;
+}
+.links-and-socials .social i {
+	font-size: 32px;
+}
+
+.footer-address {
+	width: 100%;
+	text-align: right;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.address {
+	width: 70%;
+}
+
+.footer-address p {
+	width: 100%;
+	font-size: 14px;
+	margin-top: 1.5rem;
+}
